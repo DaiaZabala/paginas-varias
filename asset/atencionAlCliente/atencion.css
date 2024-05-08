@@ -1,0 +1,30 @@
+.atencionAlCliente{
+ background-color: #f2eeE4;
+}
+.barraAC {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .barraAC a {
+    text-decoration: none;
+    color:#ffde59 ;
+    padding: 10px 15px;
+    border: 1px solid #004d29;
+    border-radius: 5px;
+    margin-right: 100px;
+    /* Espacio entre  elementos */
+    background-color: #004d29;
+  }
+  
+  .barraAC a:last-child {
+    margin-right: 70px; /* Elimina el margen derecho del último elemento li */
+  }
+  
+  .barraAC a:hover {
+    background-color: #ffde59;
+    color: black;
+  }
+  
